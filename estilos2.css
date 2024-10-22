@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Fundo suave */
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid #f34c61; /* Rosa característico da Hello Kitty */
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Largura fixa */
+}
+
+h1 {
+    text-align: center;
+    color: #f17cf1; /* Cor do título */
+    font-family: 'Times New Roman', Times, serif /* Fonte divertida */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+.button {
+    background-color: #f34c61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #e63950; /* Tom mais escuro ao passar o mouse */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #f34c61;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
